@@ -57,7 +57,7 @@ nav li a{
     width: 1170px;
     height: 500px;
     flex-shrink: 0;
-    background-image: url(../images/group-13.png);
+    background-image: url(../Images/group-13.png);
     border-radius: 16px;
     padding-left: 16px;
 }
@@ -341,11 +341,8 @@ nav li a{
     margin-bottom: 110px;
     margin-top: 50px;
 }
-/* @media screen and (mix-width:576px) {
-    .header{
-        background-image: none;
-    }
-    nav > ul,
+@media screen and (max-width:600px) {
+    
 
     
-} */
+}
