@@ -156,3 +156,79 @@ nav li a{
     height: auto;
     object-fit: cover;
 }
+.section-destination-title{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 24px;
+}
+.section-destination-info{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-weight: 400;
+    line-height: 26px;
+    width: 643px;
+    padding-left: 264px;
+    padding-bottom: 24px;
+}
+.section-destination-image{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-destination-image .row{
+    display: flex;
+    gap: 10px;
+}
+.section-destination-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.choose-card{
+    max-width: 573px;
+    max-height: 284px;
+    padding: 32px; 
+}
+.card-one-three{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);  
+    border: none;
+}
+.card-two-only{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    border: none;
+}
+
+.section-choose-card .row-one{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.section-choose-card .row-two{
+    display: flex;
+    justify-content: center;
+
+}
+.section-choose{
+    margin-top: 50px;
+}
+.section-choose h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-choose .info{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    line-height: 26px; 
+    max-width: 643px;
+    margin: 20px auto;
+    /* color: red; */
+}
