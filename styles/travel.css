@@ -1,5 +1,6 @@
 body{
     font-family: 'Mulish', sans-serif;
+    border: 1px solid red;
 }
 header{
     margin: 10px 135px;
@@ -32,13 +33,6 @@ nav{
     font-size: 18px;
     font-weight: 700;
 }
-/* .section-content-one{
-    color: var(--Dark-02, #424247);
-    text-align: center;
-    font-family: Mulish;
-    font-size: 18px;
-    font-weight: 400;
-} */
 
 nav > ul{
     display: flex; 
@@ -54,10 +48,11 @@ nav li a{
     text-decoration: none;
 }
 .section-one{
-    width: 1170px;
-    height: 500px;
-    flex-shrink: 0;
+    /* width: 1170px; */
+    /* height: 500px; */
     background-image: url(../Images/group-13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 16px;
     padding-left: 16px;
 }
@@ -88,6 +83,7 @@ nav li a{
     background-color: rgba(255, 255, 255, 0.30);
     border-radius: 8px;
     margin-top: 10px;
+    margin-bottom: 100px;
 }
 .input-field .card{
     width: 174px;
@@ -291,6 +287,11 @@ nav li a{
     font-size: 20px;
     font-weight: 800;
 }
+.section-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 .footer-section{
     background: rgba(19, 19, 24, 0.05);
 }
@@ -342,7 +343,33 @@ nav li a{
     margin-top: 50px;
 }
 @media screen and (max-width:600px) {
-    
+    nav,
+    .input-field,
+    .section-tour,
+    .section-destination-image .row,
+    .section-choose-card .row-one,
+    .section-newsletter
+    {
+        flex-direction: column;
+    }
+    nav>ul{
+        display: none;
+    }
+    header,
+    .main-section{
+        margin: 10px;
+    }
+    .section-one-info{
+        max-width: 376px;
+        /* margin: 0 auto; */
+    }
+    .section-destination-info{
+        width: 343px;
+        padding-left: 100px;
+    }
+    .section-one-title{
+        font-size: 32px;
+    }
 
     
 }
