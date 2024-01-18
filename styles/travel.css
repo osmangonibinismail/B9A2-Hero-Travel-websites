@@ -1,6 +1,5 @@
 body{
     font-family: 'Mulish', sans-serif;
-    border: 1px solid red;
 }
 header{
     margin: 10px 135px;
@@ -292,6 +291,28 @@ nav li a{
     height: auto;
     object-fit: cover;
 }
+.section-discount{
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    width: 324px;
+    position: relative;
+    left: 280px;
+    bottom: 210px;
+}
+.section-discount h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+}
+.section-discount p{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 15px;
+}
 .footer-section{
     background: rgba(19, 19, 24, 0.05);
 }
@@ -370,6 +391,8 @@ nav li a{
     .section-one-title{
         font-size: 32px;
     }
-
+    .section-discount{
+        left: 220px;
+    }
     
 }
